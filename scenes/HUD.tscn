@@ -1,0 +1,177 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/HUD.gd" id="1_hud"]
+
+[node name="HUD" type="CanvasLayer"]
+script = ExtResource("1_hud")
+
+[node name="Root" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+
+[node name="TopLeft" type="VBoxContainer" parent="Root"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 320.0
+offset_bottom = 140.0
+
+[node name="HpRow" type="HBoxContainer" parent="Root/TopLeft"]
+layout_mode = 2
+
+[node name="HpCap" type="Label" parent="Root/TopLeft/HpRow"]
+layout_mode = 2
+text = "HP"
+
+[node name="HpLabel" type="Label" parent="Root/TopLeft/HpRow"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "100"
+
+[node name="ShieldCap" type="Label" parent="Root/TopLeft/HpRow"]
+layout_mode = 2
+text = "  SH"
+
+[node name="ShieldLabel" type="Label" parent="Root/TopLeft/HpRow"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "100"
+
+[node name="MatsLabel" type="Label" parent="Root/TopLeft"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "W 0  B 0  M 0"
+
+[node name="TopRight" type="VBoxContainer" parent="Root"]
+layout_mode = 0
+offset_left = 1680.0
+offset_top = 16.0
+offset_right = 1904.0
+offset_bottom = 120.0
+
+[node name="AliveLabel" type="Label" parent="Root/TopRight"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "0 ALIVE"
+
+[node name="FeedBox" type="VBoxContainer" parent="Root/TopRight"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="CenterMessage" type="Label" parent="Root"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 760.0
+offset_top = 200.0
+offset_right = 1160.0
+offset_bottom = 300.0
+horizontal_alignment = 1
+text = ""
+
+[node name="SlotsBox" type="HBoxContainer" parent="Root"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 620.0
+offset_top = 1000.0
+offset_right = 1300.0
+offset_bottom = 1060.0
+
+[node name="AmmoLabel" type="Label" parent="Root"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 1400.0
+offset_top = 940.0
+offset_right = 1900.0
+offset_bottom = 1000.0
+horizontal_alignment = 2
+text = "--"
+
+[node name="StickBase" type="Control" parent="Root"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 40.0
+offset_top = 700.0
+offset_right = 240.0
+offset_bottom = 900.0
+mouse_filter = 2
+
+[node name="StickKnob" type="Control" parent="Root"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 90.0
+offset_top = 750.0
+offset_right = 190.0
+offset_bottom = 850.0
+mouse_filter = 2
+
+[node name="FireBtn" type="Button" parent="Root"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 1740.0
+offset_top = 820.0
+offset_right = 1880.0
+offset_bottom = 960.0
+text = "FIRE"
+
+[node name="AimBtn" type="Button" parent="Root"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 1580.0
+offset_top = 820.0
+offset_right = 1700.0
+offset_bottom = 940.0
+text = "AIM"
+
+[node name="JumpBtn" type="Button" parent="Root"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 1740.0
+offset_top = 660.0
+offset_right = 1880.0
+offset_bottom = 780.0
+text = "JUMP"
+
+[node name="CrouchBtn" type="Button" parent="Root"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 1600.0
+offset_top = 660.0
+offset_right = 1720.0
+offset_bottom = 760.0
+text = "CROUCH"
+
+[node name="ReloadBtn" type="Button" parent="Root"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 1600.0
+offset_top = 660.0
+offset_right = 1720.0
+offset_bottom = 780.0
+text = "RELOAD"
+
+[node name="BuildBox" type="HBoxContainer" parent="Root"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 540.0
+offset_right = 460.0
+offset_bottom = 620.0
+
+[node name="WallBtn" type="Button" parent="Root/BuildBox"]
+layout_mode = 2
+text = "WALL"
+
+[node name="FloorBtn" type="Button" parent="Root/BuildBox"]
+layout_mode = 2
+text = "FLOOR"
+
+[node name="RampBtn" type="Button" parent="Root/BuildBox"]
+layout_mode = 2
+text = "RAMP"
+
+[node name="ConeBtn" type="Button" parent="Root/BuildBox"]
+layout_mode = 2
+text = "CONE"

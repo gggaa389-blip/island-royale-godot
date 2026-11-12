@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/textures/ThirdParty_Mixamo_Characters_Claire.fbm_Girl01_FacialAnimMap.png" id="tex_1"]
+
+[resource]
+albedo_texture = ExtResource("tex_1")
+albedo_color = Color(1.0, 1.0, 1.0, 1.0)
+roughness = 0.780
+metallic = 0.000
+transparency = 1

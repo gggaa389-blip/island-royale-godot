@@ -1,0 +1,50 @@
+config_version=5
+
+[application]
+config/name="Island Royale"
+run/main_scene="res://scenes/Main.tscn"
+config/features=PackedStringArray("4.7", "Mobile")
+config/icon="res://icon.svg"
+
+[autoload]
+GameTypes="*res://scripts/GameTypes.gd"
+GameInput="*res://scripts/GameInput.gd"
+Fx="*res://scripts/Fx.gd"
+Match="*res://scripts/Match.gd"
+Building="*res://scripts/Building.gd"
+Pickups="*res://scripts/Pickups.gd"
+
+[display]
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=0
+
+[rendering]
+renderer/rendering_method="mobile"
+renderer/rendering_method.mobile="mobile"
+textures/vram_compression/import_etc2_astc=true
+environment/defaults/default_clear_color=Color(0.42, 0.62, 0.82, 1)
+anti_aliasing/quality/msaa_3d=1
+lights_and_shadows/directional_shadow/soft_shadow_filter_quality=1
+textures/canvas_textures/default_texture_filter=0
+
+[physics]
+common/physics_ticks_per_second=60
+
+[layer_names]
+3d_physics/layer_1="World"
+3d_physics/layer_2="Player"
+3d_physics/layer_3="Hitbox"
+3d_physics/layer_4="Pickup"
+3d_physics/layer_5="Build"
+
+[input]
+ui_accept={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":32,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+]
+}

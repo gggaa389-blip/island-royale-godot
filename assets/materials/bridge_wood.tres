@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/textures/Generated_Textures_bridge_wood.png" id="tex_1"]
+
+[resource]
+albedo_texture = ExtResource("tex_1")
+albedo_color = Color(1.0, 1.0, 1.0, 1.0)
+roughness = 0.850
+metallic = 0.000

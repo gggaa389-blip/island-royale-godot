@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/models/SourceModels_shotgun_shotgun.glb" id="m1"]
+
+[node name="shotgun" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="shotgun_tube_magazine" parent="shotgun" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="shotgun_grip" parent="shotgun" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="shotgun_barrel" parent="shotgun" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="shotgun_barrel_clamp" parent="shotgun" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="shotgun_stock" parent="shotgun" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="shotgun_pump" parent="shotgun" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, 0.061859, 0.405769)
+instance = ExtResource("m1")
+
+[node name="shotgun_trigger" parent="shotgun" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, 0.0352564, 0.0692308)
+instance = ExtResource("m1")

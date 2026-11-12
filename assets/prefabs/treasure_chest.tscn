@@ -1,0 +1,43 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/models/SourceModels_treasure_chest_treasure_chest.glb" id="m1"]
+
+[node name="treasure_chest" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="chest_lid" parent="chest_lid" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, 0.4, -0.299)
+instance = ExtResource("m1")
+
+[node name="chest_hasp" parent="treasure_chest" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, 0.162931, 0.567029)
+instance = ExtResource("m1")
+
+[node name="chest_corner_plates" parent="chest_lid" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="chest_lid_rivets" parent="treasure_chest" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="chest_inner_glow" parent="chest_lid" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, 0.35, 0)
+instance = ExtResource("m1")
+
+[node name="chest_lid_bands" parent="treasure_chest" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="chest_lock" parent="chest_hasp" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, -0.164431, 0.0489713)
+instance = ExtResource("m1")
+
+[node name="chest_rivets" parent="chest_lid" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="chest_metal_bands" parent="chest_lid" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")

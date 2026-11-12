@@ -1,0 +1,31 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/models/SourceModels_assault_rifle_assault_rifle.glb" id="m1"]
+
+[node name="assault_rifle" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="grip" parent="assault_rifle" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="magazine" parent="assault_rifle" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, 0.0287551, 0.179432)
+instance = ExtResource("m1")
+
+[node name="stock" parent="assault_rifle" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="trigger" parent="assault_rifle" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, 0.0448579, 0.0776387)
+instance = ExtResource("m1")
+
+[node name="barrel_and_muzzle" parent="assault_rifle" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="sight" parent="assault_rifle" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")

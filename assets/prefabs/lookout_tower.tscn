@@ -1,0 +1,34 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/models/SourceModels_lookout_tower_lookout_tower.glb" id="m1"]
+
+[node name="lookout_tower" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+
+[node name="cross_braces" parent="lookout_tower" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="legs" parent="lookout_tower" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="roof" parent="lookout_tower" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="platform" parent="lookout_tower" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="railings" parent="lookout_tower" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="ladder" parent="lookout_tower" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="roof_posts" parent="lookout_tower" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")

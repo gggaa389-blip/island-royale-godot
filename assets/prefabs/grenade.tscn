@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/models/SourceModels_grenade_grenade.glb" id="m1"]
+
+[node name="grenade" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="grenade_fuse_top" parent="grenade" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, 0.036, 0)
+instance = ExtResource("m1")
+
+[node name="grenade_lever" parent="grenade" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, 0.0645, -0.015)
+instance = ExtResource("m1")
+
+[node name="grenade_pull_ring" parent="grenade" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0194, 0.0545, -0.005)
+instance = ExtResource("m1")

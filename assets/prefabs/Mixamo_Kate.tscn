@@ -1,0 +1,217 @@
+[gd_scene load_steps=2 format=3]
+
+[node name="Mixamo_Kate" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+
+[node name="mixamorig_Hips" parent="mixamorig_LeftHandThumb1" type="Node3D"]
+transform = Transform3D(1, 0, -0, -0, 1, 0, 0, 0, 1, 5.64575e-06, 0.952298, 0.0137967)
+
+[node name="mixamorig_Spine" parent="mixamorig_LeftHandRing2" type="Node3D"]
+transform = Transform3D(1, 0, 0, -0, 0.999367, 0.0355839, 0, -0.0355839, 0.999367, -0, 0.100588, -0.0035816)
+
+[node name="mixamorig_Spine1" parent="mixamorig_LeftHandMiddle2" type="Node3D"]
+transform = Transform3D(1, 0, -0, -0, 1, 0, 0, 0, 1, -0, 0.117428, -1.59933e-10)
+
+[node name="mixamorig_Spine2" parent="mixamorig_LeftFoot" type="Node3D"]
+transform = Transform3D(1, 0, -0, -0, 1, -8.72934e-26, 0, 8.72934e-26, 1, -0, 0.134203, 7.66473e-11)
+
+[node name="mixamorig_RightShoulder" parent="mixamorig_LeftForeArm" type="Node3D"]
+transform = Transform3D(-0.0113149, 0.954805, -0.297017, 1.74751e-06, -0.297036, -0.954866, -0.999936, -0.0108047, 0.00335919, 0.0594912, 0.132478, -0.000672938)
+
+[node name="mixamorig_RightArm" parent="mixamorig_RightHandRing1" type="Node3D"]
+transform = Transform3D(0.997155, 0.073488, 0.0167867, -0.0753809, 0.972115, 0.222059, 8.16831e-10, -0.222692, 0.974889, 2.52471e-11, 0.124722, 6.65241e-10)
+
+[node name="mixamorig_RightForeArm" parent="Mixamo_Kate" type="Node3D"]
+transform = Transform3D(0.991538, -0.128752, -0.0165827, 0.129815, 0.983415, 0.12666, 7.17086e-11, -0.12774, 0.991808, 4.18147e-10, 0.238199, -4.38925e-10)
+
+[node name="mixamorig_LeftShoulder" parent="mixamorig_LeftForeArm" type="Node3D"]
+transform = Transform3D(-0.0108374, -0.954805, 0.297034, -1.92142e-06, -0.297052, -0.954861, 0.999941, -0.0103488, 0.00321745, -0.0594912, 0.132477, -0.000644512)
+
+[node name="mixamorig_LeftArm" parent="mixamorig_LeftHandRing3" type="Node3D"]
+transform = Transform3D(0.997315, -0.0713919, -0.0163046, 0.0732301, 0.972281, 0.222051, 4.26052e-10, -0.222648, 0.974899, -2.39946e-11, 0.124722, 6.65288e-10)
+
+[node name="mixamorig_LeftForeArm" parent="mixamorig_RightShoulder" type="Node3D"]
+transform = Transform3D(0.99229, 0.122924, 0.0158422, -0.123941, 0.98415, 0.126835, 4.14026e-09, -0.127821, 0.991797, -1.72919e-09, 0.238149, -4.51038e-11)
+
+[node name="mixamorig_LeftHand" parent="mixamorig_RightHandIndex2" type="Node3D"]
+transform = Transform3D(0.999863, -0.0165182, 0.000425248, 0.0164917, 0.996001, -0.0878085, 0.00102689, 0.0878035, 0.996137, 2.07998e-10, 0.245563, -2.61595e-10)
+
+[node name="mixamorig_LeftHandMiddle1" parent="mixamorig_RightArm" type="Node3D"]
+transform = Transform3D(0.999953, 0.00969826, -0.000130422, -0.00969913, 0.999863, -0.0134462, -2.78041e-10, 0.0134468, 0.99991, 0.00902019, 0.0843563, -0.00141523)
+
+[node name="mixamorig_LeftHandMiddle2" parent="mixamorig_Hips" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 0.974869, -0.222778, -0, 0.222778, 0.974869, -9.08688e-05, 0.0319361, -1.16287e-10)
+
+[node name="mixamorig_LeftHandRing1" parent="mixamorig_RightArm" type="Node3D"]
+transform = Transform3D(0.999462, -0.0327186, 0.00234644, 0.0328026, 0.996902, -0.0714936, 7.25724e-10, 0.0715321, 0.997438, -0.0113239, 0.0843671, -0.00207109)
+
+[node name="mixamorig_LeftHandRing2" parent="mixamorig_RightHandThumb3" type="Node3D"]
+transform = Transform3D(1, -4.24928e-19, 8.6691e-20, 4.33681e-19, 0.979817, -0.199896, -6.87175e-28, 0.199896, 0.979817, -2.22683e-05, 0.027408, -2.74466e-11)
+
+[node name="mixamorig_LeftHandRing3" parent="mixamorig_Spine" type="Node3D"]
+transform = Transform3D(1, -9.30109e-19, 3.34421e-18, 1.0842e-19, 0.971331, 0.237731, -3.46945e-18, -0.237731, 0.971331, 5.20759e-05, 0.0275758, -1.114e-09)
+
+[node name="mixamorig_RightHand" parent="mixamorig_LeftHandPinky1" type="Node3D"]
+transform = Transform3D(0.999691, 0.0189615, -0.0160863, -0.0202697, 0.996132, -0.0854972, 0.0144029, 0.0857968, 0.996209, 5.22352e-10, 0.245599, 5.72443e-10)
+
+[node name="mixamorig_RightHandIndex1" parent="mixamorig_LeftHandPinky2" type="Node3D"]
+transform = Transform3D(0.998746, -0.0500171, 0.00209617, 0.050061, 0.99787, -0.0418198, 1.33569e-09, 0.0418723, 0.999123, -0.0335113, 0.0836722, 0.00110764)
+
+[node name="mixamorig_RightHandIndex2" parent="mixamorig_LeftHandIndex2" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 0.983039, -0.183397, -0, 0.183397, 0.983039, 2.7625e-05, 0.0306834, -6.5059e-11)
+
+[node name="mixamorig_RightHandIndex3" parent="mixamorig_Spine1" type="Node3D"]
+transform = Transform3D(1, 1.80386e-19, -3.46475e-18, 1.15919e-27, 0.998647, 0.0519927, 3.46945e-18, -0.0519927, 0.998647, -2.06943e-05, 0.0277974, 5.49134e-10)
+
+[node name="mixamorig_LeftHandMiddle3" parent="mixamorig_Spine2" type="Node3D"]
+transform = Transform3D(1, -5.36841e-20, 1.73389e-18, -5.96454e-28, 0.999521, 0.0309468, -1.73472e-18, -0.0309468, 0.999521, 5.78752e-05, 0.0308516, 6.99771e-12)
+
+[node name="mixamorig_LeftHandThumb1" parent="mixamorig_RightArm" type="Node3D"]
+transform = Transform3D(0.811364, 0.557168, -0.176781, -0.584541, 0.77337, -0.245379, -2.47095e-09, 0.302428, 0.953172, 0.0283198, 0.0253586, 0.0117806)
+
+[node name="mixamorig_LeftHandPinky1" parent="mixamorig_RightArm" type="Node3D"]
+transform = Transform3D(0.998298, -0.0582366, 0.00296421, 0.058312, 0.997008, -0.0507471, 4.59866e-10, 0.0508336, 0.998707, -0.0310591, 0.0807945, 0.000929606)
+
+[node name="mixamorig_LeftHandPinky2" parent="mixamorig_RightForeArm" type="Node3D"]
+transform = Transform3D(1, 6.18378e-18, -4.68468e-18, -6.93889e-18, 0.982994, -0.183636, 3.46945e-18, 0.183636, 0.982994, -2.58382e-05, 0.0252739, -7.94762e-11)
+
+[node name="mixamorig_RightHandMiddle1" parent="mixamorig_LeftHandPinky2" type="Node3D"]
+transform = Transform3D(0.999834, -0.0182218, 0.000735822, 0.0182367, 0.999019, -0.040342, 4.20473e-09, 0.0403487, 0.999186, -0.00917752, 0.0860576, -0.00172031)
+
+[node name="mixamorig_RightHandMiddle2" parent="mixamorig_LeftShoulder" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 0.979068, -0.203531, -0, 0.203531, 0.979068, 1.35117e-05, 0.0323044, 4.79224e-11)
+
+[node name="mixamorig_LeftUpLeg" parent="mixamorig_LeftHandRing2" type="Node3D"]
+transform = Transform3D(-0.997231, -0.0743617, -3.00014e-10, 0.0742054, -0.995136, -0.0647931, 0.00481812, -0.0646137, 0.997899, -0.093921, -0.0557221, -0.000932094)
+
+[node name="mixamorig_LeftLeg" parent="mixamorig_Neck" type="Node3D"]
+transform = Transform3D(0.999898, -0.0142845, 0.000370926, 0.0142893, 0.999561, -0.0259557, 1.20634e-10, 0.0259584, 0.999663, 1.44121e-09, 0.423183, -1.20044e-09)
+
+[node name="mixamorig_LeftFoot" parent="mixamorig_LeftArm" type="Node3D"]
+transform = Transform3D(0.99435, 0.0928123, 0.0515153, 7.88264e-09, 0.485304, -0.874345, -0.106151, 0.869405, 0.482562, 5.59911e-11, 0.390997, 4.62732e-10)
+
+[node name="mixamorig_Neck" parent="mixamorig_LeftForeArm" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 0.999367, -0.035584, -0, 0.035584, 0.999367, -0, 0.150978, 1.01166e-08)
+
+[node name="mixamorig_Head" parent="mixamorig_RightHandThumb1" type="Node3D"]
+transform = Transform3D(1, 0, -0, -0, 1, 0, 0, 0, 1, -0, 0.0808557, 0.0268779)
+
+[node name="mixamorig_HeadTop_End" parent="mixamorig_LeftHand" type="Node3D"]
+transform = Transform3D(1, 0, -0, -0, 1, -1.38778e-17, 0, 1.38778e-17, 1, -0, 0.214992, 0.071467)
+
+[node name="mixamorig_LeftHandPinky3" parent="mixamorig_LeftHandMiddle1" type="Node3D"]
+transform = Transform3D(1, -3.46942e-18, 1.4275e-20, 3.46945e-18, 0.999992, -0.0041145, 3.84848e-28, 0.0041145, 0.999992, 1.32132e-05, 0.0200341, -5.31474e-10)
+
+[node name="mixamorig_RightHandThumb1" parent="mixamorig_LeftHandPinky2" type="Node3D"]
+transform = Transform3D(0.795246, -0.57427, 0.194418, 0.606287, 0.75325, -0.255012, -8.7749e-09, 0.320671, 0.947191, -0.0281249, 0.0244285, 0.0123496)
+
+[node name="mixamorig_RightHandThumb2" parent="mixamorig_RightHand" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 0.997579, -0.0695365, -0, 0.0695365, 0.997579, -0.00604442, 0.0308098, 4.35266e-10)
+
+[node name="mixamorig_RightHandThumb3" parent="mixamorig_LeftHandRing1" type="Node3D"]
+transform = Transform3D(1, -3.47605e-19, -2.77534e-17, -3.34836e-27, 0.999922, -0.0125238, 2.77556e-17, 0.0125238, 0.999922, 0.00326908, 0.0304892, 6.26524e-10)
+
+[node name="mixamorig_RightUpLeg" parent="mixamorig_LeftHandRing2" type="Node3D"]
+transform = Transform3D(-0.997232, 0.0743482, 1.73001e-10, -0.0741786, -0.994956, -0.0675244, -0.00502032, -0.0673375, 0.997718, 0.093921, -0.0557221, -0.000152289)
+
+[node name="mixamorig_RightHandMiddle3" parent="mixamorig_RightHandIndex1" type="Node3D"]
+transform = Transform3D(1, 6.93002e-18, 3.48713e-18, -6.93889e-18, 0.999997, 0.00255006, -3.46945e-18, -0.00255006, 0.999997, -6.83126e-06, 0.0302554, -1.8991e-10)
+
+[node name="mixamorig_RightLeg" parent="mixamorig_RightHandIndex3" type="Node3D"]
+transform = Transform3D(0.999898, 0.0142456, -0.000472277, -0.0142535, 0.999349, -0.0331308, -2.18991e-10, 0.0331342, 0.999451, -9.01185e-10, 0.42326, 9.06523e-10)
+
+[node name="mixamorig_RightHandRing1" parent="mixamorig_LeftHandPinky2" type="Node3D"]
+transform = Transform3D(0.999497, 0.0316145, -0.00250488, -0.0317135, 0.996374, -0.0789448, 4.23556e-09, 0.0789845, 0.996876, 0.0116331, 0.0879832, -0.00229211)
+
+[node name="mixamorig_RightHandRing2" parent="mixamorig_Head" type="Node3D"]
+transform = Transform3D(1, 1.25568e-18, 6.83208e-18, 3.25261e-19, 0.973984, -0.226619, -6.93889e-18, 0.226619, 0.973984, -1.30782e-05, 0.0267411, 7.28062e-11)
+
+[node name="mixamorig_RightHandRing3" parent="mixamorig_LeftHandMiddle3" type="Node3D"]
+transform = Transform3D(1, 0, 0, -0, 0.97963, 0.200809, 0, -0.200809, 0.97963, 2.17794e-05, 0.0263094, 5.30494e-10)
+
+[node name="Ch21_Hair" parent="mixamorig_LeftHandThumb1" type="Node3D"]
+transform = Transform3D(1, 0, -0, -0, 1, 0, 0, 0, 1, -0, 0, 0)
+
+[node name="mixamorig_RightHandPinky1" parent="mixamorig_LeftHandPinky2" type="Node3D"]
+transform = Transform3D(0.999189, 0.0402618, 0.000889449, -0.0402716, 0.998945, 0.0220685, 5.03985e-09, -0.0220864, 0.999756, 0.0310557, 0.0789427, 0.0022023)
+
+[node name="mixamorig_RightFoot" parent="mixamorig_RightHandPinky1" type="Node3D"]
+transform = Transform3D(0.994197, -0.0935889, -0.0530327, 1.50029e-09, 0.493006, -0.870026, 0.10757, 0.864978, 0.490145, -1.52955e-10, 0.390933, -4.01476e-10)
+
+[node name="mixamorig_RightToeBase" parent="mixamorig_RightHandMiddle1" type="Node3D"]
+transform = Transform3D(1, 0.000479923, 0.000724463, -1.09631e-09, 0.833669, -0.552265, -0.000869007, 0.552265, 0.833668, -4.61504e-10, 0.145999, -2.75379e-09)
+
+[node name="mixamorig_RightHandPinky2" parent="mixamorig_RightHandMiddle2" type="Node3D"]
+transform = Transform3D(1, -1.6866e-18, 4.05763e-19, 1.73472e-18, 0.972259, -0.233907, 9.06487e-27, 0.233907, 0.972259, -2.80427e-05, 0.0250999, -3.08808e-11)
+
+[node name="mixamorig_RightHandRing4" parent="mixamorig_LeftUpLeg" type="Node3D"]
+transform = Transform3D(1, 0, -0, -0, 1, 0, 0, 0, 1, -8.70122e-06, 0.0216065, 2.71284e-10)
+
+[node name="mixamorig_RightHandThumb4" parent="mixamorig_LeftLeg" type="Node3D"]
+transform = Transform3D(1, 0, -0, -0, 1, 0, 0, 0, 1, 0.00277534, 0.0255122, -1.35638e-09)
+
+[node name="mixamorig_LeftHandIndex1" parent="mixamorig_RightArm" type="Node3D"]
+transform = Transform3D(0.997231, 0.0743502, -0.00174612, -0.0743707, 0.996956, -0.0234137, -2.27442e-09, 0.0234787, 0.999724, 0.0333629, 0.0831578, 0.00101964)
+
+[node name="mixamorig_LeftHandIndex2" parent="mixamorig_RightHandMiddle3" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 0.983965, -0.178363, -0, 0.178363, 0.983965, -0.000127625, 0.0304565, 1.53559e-10)
+
+[node name="mixamorig_LeftHandIndex3" parent="mixamorig_HeadTop_End" type="Node3D"]
+transform = Transform3D(1, -1.37992e-17, 1.8301e-18, 1.38778e-17, 0.998548, -0.053861, -1.0842e-18, 0.053861, 0.998548, 4.54726e-05, 0.0280675, -2.64121e-10)
+
+[node name="mixamorig_LeftHandMiddle4" parent="mixamorig_LeftHandPinky3" type="Node3D"]
+transform = Transform3D(1, 0, -0, -0, 1, 0, 0, 0, 1, 3.29937e-05, 0.0269293, 5.84025e-10)
+
+[node name="Ch21_Pants" parent="mixamorig_LeftHandThumb1" type="Node3D"]
+transform = Transform3D(1, 0, -0, -0, 1, 0, 0, 0, 1, -0, 0, 0)
+
+[node name="Ch21_Shirt" parent="mixamorig_LeftHandThumb1" type="Node3D"]
+transform = Transform3D(1, 0, -0, -0, 1, 0, 0, 0, 1, -0, 0, 0)
+
+[node name="Ch21_Body" parent="mixamorig_LeftHandThumb1" type="Node3D"]
+transform = Transform3D(1, 0, -0, -0, 1, 0, 0, 0, 1, -0, 0, 0)
+
+[node name="mixamorig_LeftHandThumb2" parent="mixamorig_LeftHandIndex1" type="Node3D"]
+transform = Transform3D(1, -2.58749e-18, -2.76347e-17, -3.22545e-26, 0.995645, -0.0932243, 2.77556e-17, 0.0932243, 0.995645, 0.00652366, 0.0311626, 7.8394e-10)
+
+[node name="mixamorig_LeftHandThumb3" parent="mixamorig_RightHandPinky2" type="Node3D"]
+transform = Transform3D(1, -5.44456e-17, -1.08245e-17, 5.55111e-17, 0.980804, 0.194996, -1.1837e-25, -0.194996, 0.980804, -0.00143038, 0.0305609, 1.30513e-09)
+
+[node name="mixamorig_LeftHandThumb4" parent="mixamorig_RightHandThumb2" type="Node3D"]
+transform = Transform3D(1, 0, -0, -0, 1, 0, 0, 0, 1, -0.00509328, 0.0232884, 6.41569e-11)
+
+[node name="mixamorig_LeftHandRing4" parent="mixamorig_RightUpLeg" type="Node3D"]
+transform = Transform3D(1, 0, -0, -0, 1, 0, 0, 0, 1, -2.98075e-05, 0.02285, 5.82531e-12)
+
+[node name="mixamorig_LeftHandPinky4" parent="mixamorig_RightLeg" type="Node3D"]
+transform = Transform3D(1, 0, -0, -0, 1, 0, 0, 0, 1, 1.2625e-05, 0.0185453, 6.50773e-10)
+
+[node name="mixamorig_RightHandPinky3" parent="mixamorig_RightHandRing2" type="Node3D"]
+transform = Transform3D(1, -1.30029e-18, 4.41728e-20, 1.30104e-18, 0.999423, -0.0339518, -2.39516e-27, 0.0339518, 0.999423, 1.25232e-05, 0.0209918, 2.01173e-10)
+
+[node name="mixamorig_LeftHandIndex4" parent="mixamorig_RightHandRing3" type="Node3D"]
+transform = Transform3D(1, 0, -0, -0, 1, 0, 0, 0, 1, 8.21524e-05, 0.0244006, 9.43658e-12)
+
+[node name="Ch21_Shoes" parent="mixamorig_LeftHandThumb1" type="Node3D"]
+transform = Transform3D(1, 0, -0, -0, 1, 0, 0, 0, 1, -0, 0, 0)
+
+[node name="mixamorig_RightHandIndex4" parent="Ch21_Hair" type="Node3D"]
+transform = Transform3D(1, 0, -0, -0, 1, 0, 0, 0, 1, -6.93038e-06, 0.0249007, 3.63702e-10)
+
+[node name="mixamorig_LeftToeBase" parent="mixamorig_RightToeBase" type="Node3D"]
+transform = Transform3D(0.999992, 0.00224929, 0.00342461, -6.32573e-09, 0.835838, -0.548977, -0.00409722, 0.548972, 0.83583, 1.48696e-10, 0.147062, -1.11725e-10)
+
+[node name="mixamorig_LeftToe_End" parent="mixamorig_RightFoot" type="Node3D"]
+transform = Transform3D(1, 0, -0, -0, 1, 0, 0, 0, 1, -8.12736e-11, 0.0595384, -3.0287e-13)
+
+[node name="mixamorig_RightToe_End" parent="mixamorig_RightHandRing4" type="Node3D"]
+transform = Transform3D(1, 0, -0, -0, 1, 0, 0, 0, 1, -1.83505e-10, 0.060364, 7.71989e-11)
+
+[node name="mixamorig_RightHandMiddle4" parent="mixamorig_RightHandThumb4" type="Node3D"]
+transform = Transform3D(1, 0, -0, -0, 1, 0, 0, 0, 1, -6.68e-06, 0.0268876, -6.8429e-11)
+
+[node name="Ch21_Eyelasshes" parent="mixamorig_LeftHandThumb1" type="Node3D"]
+transform = Transform3D(1, 0, -0, -0, 1, 0, 0, 0, 1, -0, 0, 0)
+
+[node name="mixamorig_RightHandPinky4" parent="mixamorig_LeftHandIndex3" type="Node3D"]
+transform = Transform3D(1, 0, -0, -0, 1, 0, 0, 0, 1, 1.55195e-05, 0.0184564, 1.17409e-09)

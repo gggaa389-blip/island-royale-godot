@@ -1,0 +1,43 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/models/SourceModels_sniper_rifle_sniper_rifle.glb" id="m1"]
+
+[node name="sniper_rifle" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="magazine" parent="sniper_rifle" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, 0.0404313, 0.21058)
+instance = ExtResource("m1")
+
+[node name="barrel_and_muzzle_brake" parent="sniper_rifle" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="cheek_rest" parent="sniper_rifle" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, 0.0817049, -0.173096)
+instance = ExtResource("m1")
+
+[node name="bipod_right" parent="sniper_rifle" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.021, 0.0673854, 0.520553)
+instance = ExtResource("m1")
+
+[node name="scope_mounts" parent="sniper_rifle" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="scope" parent="sniper_rifle" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="grip" parent="sniper_rifle" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="bipod_left" parent="sniper_rifle" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.021, 0.0404313, 0.520553)
+instance = ExtResource("m1")
+
+[node name="bolt_handle" parent="sniper_rifle" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, 0.120451, 0.0724393)
+instance = ExtResource("m1")

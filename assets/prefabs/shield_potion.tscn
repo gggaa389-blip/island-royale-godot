@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/models/SourceModels_shield_potion_shield_potion.glb" id="m1"]
+
+[node name="shield_potion" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="bubbles" parent="shield_potion" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, 0.1, 0)
+instance = ExtResource("m1")
+
+[node name="band_buckle" parent="shield_potion" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, 0.1, 0.1155)
+instance = ExtResource("m1")
+
+[node name="liquid" parent="shield_potion" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="cork" parent="shield_potion" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, 0.223, 0)
+instance = ExtResource("m1")
+
+[node name="metal_band" parent="shield_potion" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, 0.1, 0)
+instance = ExtResource("m1")

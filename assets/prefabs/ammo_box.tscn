@@ -1,0 +1,31 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/models/SourceModels_ammo_box_ammo_box.glb" id="m1"]
+
+[node name="ammo_box" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+instance = ExtResource("m1")
+
+[node name="ammo_box_hinges" parent="ammo_box" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, 0.165, -0.133)
+instance = ExtResource("m1")
+
+[node name="ammo_box_latch_left" parent="ammo_box" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.16, 0.1, 0.128)
+instance = ExtResource("m1")
+
+[node name="ammo_box_latch_right" parent="ammo_box" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.16, 0.1, 0.128)
+instance = ExtResource("m1")
+
+[node name="ammo_box_lid" parent="ammo_box" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, 0.165, -0.133)
+instance = ExtResource("m1")
+
+[node name="ammo_box_handle" parent="ammo_box_hinges" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, 0.085, 0.133)
+instance = ExtResource("m1")
+
+[node name="ammo_box_bullets" parent="ammo_box" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, 0.118, 0)
+instance = ExtResource("m1")

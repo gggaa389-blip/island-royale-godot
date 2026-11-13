@@ -1,0 +1,39 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/models/SourceModels_med_kit_med_kit.glb" id="m1"]
+
+[node name="med_kit" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+
+[node name="case_bottom" parent="n2" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+[ext_resource type="PackedScene" path="res://assets/models/SourceModels_med_kit_med_kit.glb" id="m1"]
+instance = ExtResource("m1")
+
+[node name="latch_right" parent="n0" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.14, 0.044, 0.161)
+instance = ExtResource("m1")
+
+[node name="case_lid" parent="n0" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, 0.085, -0.156)
+instance = ExtResource("m1")
+
+[node name="latch_left" parent="n0" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.14, 0.044, 0.161)
+instance = ExtResource("m1")
+
+[node name="red_cross" parent="n1" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, 0.062, 0.156)
+instance = ExtResource("m1")
+
+[node name="handle" parent="n0" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0, 0.054, 0.161)
+instance = ExtResource("m1")
+
+[node name="bandage" parent="n2" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.297, 0, 0.075)
+instance = ExtResource("m1")
+
+[node name="bandage_clip" parent="n3" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0255241, 0.05, 0.0364523)
+instance = ExtResource("m1")

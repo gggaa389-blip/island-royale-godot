@@ -1,0 +1,12 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/textures/ThirdParty_Mixamo_Characters_Swat.fbm_Soldier_Body_diffuse.png" id="tex_1"]
+[ext_resource type="Texture2D" path="res://assets/textures/ThirdParty_Mixamo_Characters_Swat.fbm_Soldier_Body_normal.png" id="tex_2"]
+
+[resource]
+albedo_texture = ExtResource("tex_1")
+normal_enabled = true
+normal_texture = ExtResource("tex_2")
+albedo_color = Color(1.0, 1.0, 1.0, 1.0)
+roughness = 0.780
+metallic = 0.000
